@@ -8,16 +8,17 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-./calendar/node_modules
 .DS_Store
 dist
 dist-ssr
 coverage
 *.local
 
+/cypress/videos/
+/cypress/screenshots/
+
 # Editor directories and files
 .vscode/*
-./calendar/.vscode
 !.vscode/extensions.json
 .idea
 *.suo
